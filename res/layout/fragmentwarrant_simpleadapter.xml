@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textWarrantNo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textWarrantName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />   
+    <TextView
+        android:id="@+id/textBuyPrice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textSellPrice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textRealBidAskSpread"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textReasonableBidAskSpread"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+	<TextView
+        android:id="@+id/textEffectiveLever"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+	<TextView
+        android:id="@+id/textDaysLeft"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+	<TextView
+        android:id="@+id/textTheta"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textDelta"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textIOtheMoney"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textOutstandingPercent"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/textSIV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="match_parent" 
+  android:layout_height="match_parent">
+ 
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="438dp" >
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/webViewTechnicals" />
+
+    <WebView
+        android:id="@+id/webViewTechnicals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+</ScrollView>

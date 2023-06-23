@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="match_parent" 
+  android:layout_height="match_parent">
+
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+	
+
+     
+	<TableRow         
+	    android:id="@+id/tableRow1"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+
+		<TextView
+		    android:id="@+id/textView0"
+		    android:layout_width="match_parent"
+		    android:text="股票" />
+
+		<TextView
+		    android:id="@+id/textView11"
+		    android:text="產業類別" />
+    </TableRow>       
+    
+	
+		<TableRow         
+	    android:id="@+id/tableRow2"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+		<TextView
+		    android:id="@+id/textView1"
+		    android:text="成交" />
+
+		<TextView
+		    android:id="@+id/textView5"
+		    android:text="每股淨值" />
+
+    </TableRow>
+    
+	<TableRow         
+	    android:id="@+id/tableRow3"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+		<TextView
+		    android:id="@+id/textView2"
+		    android:text="股本" />
+
+		<TextView
+		    android:id="@+id/textView3"
+		    android:text="市值營收比" />
+
+	</TableRow>	
+    
+	<TableRow         
+	    android:id="@+id/tableRow4"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+		<TextView
+		    android:id="@+id/textView8"
+		    android:text="本益比" />
+		<TextView
+		    android:id="@+id/textView10"
+		    android:text="價值成長指標" />
+	</TableRow>
+	
+	<TableRow         
+	    android:id="@+id/tableRow5"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+
+		<TextView
+		    android:id="@+id/textView13"
+		    android:text="停損價" />
+
+		<TextView
+		    android:id="@+id/textView4"
+		    android:text="股東權益報酬率" />
+	</TableRow>
+		
+	<TableRow         
+	    android:id="@+id/tableRow6"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+
+		<TextView
+		    android:id="@+id/textView7"
+		    android:text="合理價 - 昂貴價" />
+
+		<TextView
+		    android:id="@+id/textView9"
+		    android:text="殖利率" />
+    </TableRow>
+    
+	<TableRow         
+	    android:id="@+id/tableRow7"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+		<TextView
+		    android:id="@+id/textView12"
+		    android:text="大股東持股數" />
+
+		<TextView
+		    android:id="@+id/textView14"
+		    android:text="營收年增率" />
+
+	</TableRow>
+	
+	<ProgressBar
+   	    android:id="@+id/progressBar1"
+   	    style="?android:attr/progressBarStyleHorizontal"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="20dp"
+   	    android:visibility="invisible" />
+	   	
+	<TableRow 
+	    android:id="@+id/tableRow9"         
+	    android:layout_height="wrap_content"         
+	    android:layout_width="fill_parent">
+		
+		<Button
+		    android:id="@+id/buttonAdd"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="加入自選" />
+
+	    <Button
+	        android:id="@+id/buttonAnalysis"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="個股診斷" />
+	</TableRow>
+
+</TableLayout>
+
+</ScrollView>
+   
+
+	 
+
+	
+
+

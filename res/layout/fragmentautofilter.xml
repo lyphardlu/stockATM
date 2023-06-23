@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+ 
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+    
+    <Button
+		    android:id="@+id/buttonAdd"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="加入自選清單"
+		    android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/textStockName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30px" />  
+        
+	<HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">  
+    
+	<ListView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:id="@+id/fragmentautofilter_list"
+    />
+	
+	</HorizontalScrollView>  
+	
+	
+    
+    
+	
+ 
+    
+</LinearLayout>
